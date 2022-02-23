@@ -313,7 +313,6 @@ def main():
         uploaded_file = st.file_uploader("Завантажити характеристики")
         if uploaded_file is not None:
             dict_characteristics = get_df(uploaded_file)
-            print(dict_characteristics)
             
         st.info("Завантажте стратегії та ваги для аналізу")
         uploaded_file = st.file_uploader("Завантажити стратегії та ваги")
